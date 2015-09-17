@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/resources/img">
+        <file>resources/img/Money.png</file>
+        <file>resources/img/Tick.png</file>
+        <file>resources/img/db1.png</file>
+        <file>resources/img/db2.png</file>
+        <file>resources/img/search.png</file>
+        <file>resources/img/Error.png</file>
+        <file>resources/img/Minus.png</file>
+        <file>resources/img/Plus.png</file>
+        <file>resources/img/New.png</file>
+        <file>resources/img/Private.png</file>
+        <file>resources/img/Delete.png</file>
+        <file>resources/img/Update.png</file>
+        <file>resources/img/Synchonize.png</file>
+        <file>resources/img/Settings.png</file>
+        <file>resources/img/Photography-icon.png</file>
+        <file>resources/img/Right.png</file>
+        <file>resources/img/Forward.png</file>
+        <file>resources/img/Import.png</file>
+        <file>resources/img/Export.png</file>
+    </qresource>
+</RCC>
