@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>913</width>
-    <height>478</height>
+    <height>550</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -329,7 +329,7 @@
            <string/>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Right.png</normaloff>:/resources/img/resources/img/Right.png</iconset>
           </property>
           <property name="iconSize">
@@ -358,7 +358,7 @@
            <string/>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Synchonize.png</normaloff>:/resources/img/resources/img/Synchonize.png</iconset>
           </property>
           <property name="iconSize">
@@ -419,7 +419,7 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>:/resources/img/resources/img/search.png</pixmap>
+           <pixmap resource="resources.qrc">:/resources/img/resources/img/search.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -444,7 +444,7 @@
            <string/>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Settings.png</normaloff>:/resources/img/resources/img/Settings.png</iconset>
           </property>
           <property name="iconSize">
@@ -500,7 +500,7 @@
            <string/>
           </property>
           <property name="pixmap">
-           <pixmap>:/resources/img/resources/img/Money.png</pixmap>
+           <pixmap resource="resources.qrc">:/resources/img/resources/img/Money.png</pixmap>
           </property>
           <property name="scaledContents">
            <bool>true</bool>
@@ -585,7 +585,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap>:/resources/img/resources/img/Tick.png</pixmap>
+            <pixmap resource="resources.qrc">:/resources/img/resources/img/Tick.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -616,7 +616,7 @@
             <string/>
            </property>
            <property name="pixmap">
-            <pixmap>:/resources/img/resources/img/Error.png</pixmap>
+            <pixmap resource="resources.qrc">:/resources/img/resources/img/Error.png</pixmap>
            </property>
            <property name="scaledContents">
             <bool>true</bool>
@@ -678,7 +678,7 @@
            <string>New</string>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/New.png</normaloff>:/resources/img/resources/img/New.png</iconset>
           </property>
           <property name="iconSize">
@@ -716,7 +716,7 @@
            <string>Update</string>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Update.png</normaloff>:/resources/img/resources/img/Update.png</iconset>
           </property>
           <property name="iconSize">
@@ -754,7 +754,7 @@
            <string>Delete</string>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Delete.png</normaloff>:/resources/img/resources/img/Delete.png</iconset>
           </property>
           <property name="iconSize">
@@ -792,7 +792,7 @@
            <string/>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Photography-icon.png</normaloff>:/resources/img/resources/img/Photography-icon.png</iconset>
           </property>
           <property name="iconSize">
@@ -948,7 +948,7 @@
            <string>Add</string>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Plus.png</normaloff>:/resources/img/resources/img/Plus.png</iconset>
           </property>
           <property name="iconSize">
@@ -986,7 +986,7 @@
            <string>Remove</string>
           </property>
           <property name="icon">
-           <iconset>
+           <iconset resource="resources.qrc">
             <normaloff>:/resources/img/resources/img/Minus.png</normaloff>:/resources/img/resources/img/Minus.png</iconset>
           </property>
           <property name="iconSize">
@@ -1033,6 +1033,8 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
