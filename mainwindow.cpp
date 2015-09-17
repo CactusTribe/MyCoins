@@ -2,8 +2,9 @@
 #include "ui_mainwindow.h"
 
 #include "dialog_settings.h"
-#include "dialog_new.h"
-#include "dialog_update.h"
+#include "dialog_entry.h"
+#include "dialog_modifyquantity.h"
+#include "dialog_viewer.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -26,16 +27,16 @@ void MainWindow::on_pushButtonSettings_clicked()
 
 void MainWindow::on_pushButtonNew_clicked()
 {
-    Dialog_New dialog_new;
-    dialog_new.setModal(true);
-    dialog_new.exec();
+    Dialog_Entry dialog_entry;
+    dialog_entry.setModal(true);
+    dialog_entry.exec();
 }
 
 void MainWindow::on_pushButtonUpdate_clicked()
 {
-    Dialog_Update dialog_update;
-    dialog_update.setModal(true);
-    dialog_update.exec();
+    Dialog_Entry dialog_entry(1);
+    dialog_entry.setModal(true);
+    dialog_entry.exec();
 }
 
 void MainWindow::on_pushButtonDelete_clicked()
@@ -45,17 +46,23 @@ void MainWindow::on_pushButtonDelete_clicked()
 
 void MainWindow::on_pushButtonAdd_clicked()
 {
-
+    Dialog_ModifyQuantity dialog_modifyquantity;
+    dialog_modifyquantity.setModal(true);
+    dialog_modifyquantity.exec();
 }
 
 void MainWindow::on_pushButtonRemove_clicked()
 {
-
+    Dialog_ModifyQuantity dialog_modifyquantity(5);
+    dialog_modifyquantity.setModal(true);
+    dialog_modifyquantity.exec();
 }
 
 void MainWindow::on_pushButtonOpenViewer_clicked()
 {
-
+    Dialog_Viewer dialog_viewer;
+    dialog_viewer.setModal(true);
+    dialog_viewer.exec();
 }
 
 void MainWindow::on_pushButtonSearch_clicked()
