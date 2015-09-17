@@ -14,13 +14,19 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    dialog_settings.cpp
+    dialog_settings.cpp \
+    dialog_new.cpp \
+    dialog_update.cpp
 
 HEADERS  += mainwindow.h \
-    dialog_settings.h
+    dialog_settings.h \
+    dialog_new.h \
+    dialog_update.h
 
 FORMS    += mainwindow.ui \
-    dialog_settings.ui
+    dialog_settings.ui \
+    dialog_new.ui \
+    dialog_update.ui
 
 RESOURCES += \
     resources.qrc

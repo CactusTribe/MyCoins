@@ -18,13 +18,13 @@ public:
 private slots:
     void on_pushButtonSettings_clicked();
 
-    void on_pushButtonAdd_clicked();
+    void on_pushButtonNew_clicked();
 
     void on_pushButtonUpdate_clicked();
 
     void on_pushButtonDelete_clicked();
 
-    void on_pushButtonAddStock_clicked();
+    void on_pushButtonAdd_clicked();
 
     void on_pushButtonRemove_clicked();
 

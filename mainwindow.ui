@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>MyCoins</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="sizePolicy">
@@ -661,7 +661,7 @@
          <enum>QLayout::SetDefaultConstraint</enum>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButtonAdd">
+         <widget class="QPushButton" name="pushButtonNew">
           <property name="minimumSize">
            <size>
             <width>105</width>
@@ -931,7 +931,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButtonAddStock">
+         <widget class="QPushButton" name="pushButtonAdd">
           <property name="minimumSize">
            <size>
             <width>110</width>
