@@ -23,3 +23,43 @@ Dialog_Entry::~Dialog_Entry()
 {
     delete ui;
 }
+
+void Dialog_Entry::on_pushButtonPhotoA_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonPhotoR_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddValeur_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddType_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddAtelier_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddPeriode_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddEtat_clicked()
+{
+
+}
+
+void Dialog_Entry::on_pushButtonAddMetal_clicked()
+{
+
+}
